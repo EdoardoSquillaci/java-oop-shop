@@ -96,16 +96,5 @@ public String prezzoIva() {
 }
 
 
-//alla creazione di un nuovo prodotto il codice sia valorizzato con un numero random
-//il codice prodotto sia accessibile solo in lettura
-//gli altri attributi siano accessibili sia in lettura che in scrittura
-//il prodotto esponga un metodo per avere il prezzo base
-//il prodotto esponga un metodo per avere il prezzo comprensivo di iva
-//il prodotto esponga un metodo per avere il nome esteso, ottenuto concatenando codice-nome
-
-
-	
-
-
 	
 }
