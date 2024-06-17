@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class Prodotto {
 
-private int codiceProdotto;
+protected int codiceProdotto;
 
  protected String nome;
 
