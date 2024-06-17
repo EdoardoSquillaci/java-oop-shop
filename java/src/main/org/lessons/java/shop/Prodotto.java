@@ -36,7 +36,7 @@ public Prodotto(String nome,String descrizione, double prezzo ,int iva) {
 	this.iva=iva;
 }
 
-public int getCodiceProdotto() {
+protected int getCodiceProdotto() {
 	
 	return codiceProdotto;
 }
@@ -103,7 +103,7 @@ public String prezzoIva() {
 //il prodotto esponga un metodo per avere il prezzo comprensivo di iva
 //il prodotto esponga un metodo per avere il nome esteso, ottenuto concatenando codice-nome
 
-//costruttore
+
 	
 
 
