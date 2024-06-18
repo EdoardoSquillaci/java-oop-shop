@@ -7,15 +7,15 @@ import java.util.Random;
 
 public class Prodotto {
 
-protected int codiceProdotto;
+private int codiceProdotto;
 
- protected String nome;
+private String nome;
 
-protected String descrizione;
+private String descrizione;
 
-protected double prezzo;
+private double prezzo;
 
-protected int iva;
+private int iva;
 
 public Prodotto(String nome,String descrizione, double prezzo ,int iva) {
 	
@@ -25,10 +25,7 @@ public Prodotto(String nome,String descrizione, double prezzo ,int iva) {
 	
 	
     Random codiceRandom = new Random();
-	
-    //assegno i valori alle variabili
-    
-    
+	 
     this.codiceProdotto = codiceRandom.nextInt(valoreMassimo - valoreMinimo);	
 	this.nome=nome;
 	this.descrizione=descrizione;
